@@ -3,7 +3,7 @@
 Summary:	Logfile - Perl extension for generating reports from logfiles
 Summary(pl):	Logfile - rozszerzenie Perla do tworzenia raportów z logów
 Name:		perl-Logfile
-Version:	0.300
+Version:	0.301
 Release:	1
 License:	unknown
 Group:		Development/Languages/Perl
