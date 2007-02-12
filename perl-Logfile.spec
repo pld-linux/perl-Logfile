@@ -1,7 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Logfile
 Summary:	Logfile - Perl extension for generating reports from logfiles
-Summary(pl):	Logfile - rozszerzenie Perla do tworzenia raport體 z log體
+Summary(pl.UTF-8):   Logfile - rozszerzenie Perla do tworzenia raport贸w z log贸w
 Name:		perl-Logfile
 Version:	0.302
 Release:	1
@@ -18,9 +18,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 The Logfile extension will help you to generate various reports from
 different server logfiles.
 
-%description -l pl
-Rozszerzenie Logfile pomaga przy generowaniu rozmaitych raport體 z
-plik體 log體 r罂nych serwer體.
+%description -l pl.UTF-8
+Rozszerzenie Logfile pomaga przy generowaniu rozmaitych raport贸w z
+plik贸w log贸w r贸偶nych serwer贸w.
 
 %prep
 %setup -q -n %{pdir}-%{version}
