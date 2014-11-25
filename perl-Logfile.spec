@@ -1,5 +1,5 @@
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Logfile
+%include	/usr/lib/rpm/macros.perl
 Summary:	Logfile - Perl extension for generating reports from logfiles
 Summary(pl.UTF-8):	Logfile - rozszerzenie Perla do tworzenia raportów z logów
 Name:		perl-Logfile
@@ -9,6 +9,7 @@ License:	unknown
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{version}.tar.gz
 # Source0-md5:	a733c079c912b98c1f17a81d32b4ee29
+URL:		http://search.cpan.org/dist/Logfile/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
