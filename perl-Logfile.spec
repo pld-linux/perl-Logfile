@@ -1,5 +1,4 @@
 %define		pdir	Logfile
-%include	/usr/lib/rpm/macros.perl
 Summary:	Logfile - Perl extension for generating reports from logfiles
 Summary(pl.UTF-8):	Logfile - rozszerzenie Perla do tworzenia raportów z logów
 Name:		perl-Logfile
